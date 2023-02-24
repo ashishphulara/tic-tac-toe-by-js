@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Lato:ital,wght@1,900&family=Shantell+Sans:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+}
+
+.maincontainer{
+    margin-top: 10%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3 ,10vw);
+    font-family:"Julee", sans-serif;
+}
+
+.tile{
+    border: 2px solid black;
+    font-size:7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tile:hover{
+    background-color: rgb(17, 123, 135);
+    cursor: pointer;
+}
+
+.bt{
+    border-top: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.br{
+    border-right: 0;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+.winImage{
+    width: 10%;
+    transition: width 1s ease-in-out;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#btn{
+    width: 12vh;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-top: 20%;
+    
+}
+#btn:hover{
+    background-color: rgb(22, 154, 108);
+}
+.info{
+    font-size: 2rem;
+    font-family: lato;
+    margin-bottom: 1rem;
+    margin-bottom: 5%;
+    color: rgb(65, 109, 11);
+    
+}
